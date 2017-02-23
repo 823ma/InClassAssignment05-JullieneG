@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCE4EC"
+    android:orientation="vertical"
+    tools:context="julliene.inclassassignment05_jullieneg.MainActivity">
+
+    <TextView
+        android:id="@+id/day1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FF80AB"
+        android:text="Day 1"
+        android:onClick="openDayOne"/>
+
+    <TextView
+        android:id="@+id/day2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#7B1FA2"
+        android:text="Day 2"
+        android:onClick="openDayTwo"/>
+
+    <TextView
+        android:id="@+id/day3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#5C6BC0"
+        android:text="Day 3"
+        android:onClick="openDayThree"/>
+
+    <TextView
+        android:id="@+id/day4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00ACC1"
+        android:text="Day 4"
+        android:onClick="openDayFour"/>
+
+</LinearLayout>
+
