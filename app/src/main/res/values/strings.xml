@@ -4,4 +4,8 @@
     <string name="day2">Day 2</string>
     <string name="day3">Day 3</string>
     <string name="day4">Day 4</string>
+    <string name="headerOne">Items to Bring: </string>
+    <string name="headerTwo">Places to Go: </string>
+    <string name="hint">Type here</string>
+    <string name="button">Share with a friend!</string>
 </resources>
