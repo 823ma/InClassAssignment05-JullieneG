@@ -8,7 +8,7 @@
 
     <LinearLayout
 
-        android:id="@+id/activity_day2"
+        android:id="@+id/activity_day3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#C5CAE9"
@@ -20,13 +20,13 @@
         tools:context="julliene.inclassassignment05_jullieneg.Day1">
 
         <ImageView
-            android:id="@+id/notreDame"
+            android:id="@+id/louvreMuseum"
             android:layout_width="170dp"
             android:layout_height="190dp"
             android:layout_gravity="center"
             android:maxHeight="170dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/notredame" />
+            android:src="@drawable/louvremuseum" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Location: Notre Dame"
+                android:text="Location: Louvre Museum"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

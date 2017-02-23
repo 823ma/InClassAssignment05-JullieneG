@@ -40,7 +40,7 @@ public class Day1 extends AppCompatActivity {
         String tripMessage = "Location: Eiffel Tower" + "\n" +
                 "\nItems to Bring: " + items + "\n" +
                 "\nPlaces to Go: " + toDo + "\n" +
-                "\nHope to see you soon!";
+                "\nHope to see you there!";
 
         return tripMessage;
 
