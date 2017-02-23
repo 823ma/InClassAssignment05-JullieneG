@@ -12,7 +12,7 @@
     tools:context="julliene.inclassassignment05_jullieneg.Day1">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/eiffelTower"
         android:layout_width="170dp"
         android:layout_height="190dp"
         android:maxHeight="170dp"
@@ -26,8 +26,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
-        android:layout_toEndOf="@+id/imageView"
-        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/eiffelTower"
+        android:layout_toRightOf="@+id/eiffelTower"
         android:text="Location: Eiffel Tower"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -48,7 +48,7 @@
         android:id="@+id/list_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignBottom="@+id/eiffelTower"
         android:layout_alignLeft="@+id/toBring"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -66,7 +66,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/eiffelTower"
         android:layout_marginTop="12dp"
         android:orientation="vertical">
 
