@@ -16,14 +16,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Day1"
+            android:name=".DailyPlan"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".Day2"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".Day3"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".Day4"
-            android:parentActivityName=".MainActivity"></activity>
+
+        <activity android:name=".TripSummary"
+            android:parentActivityName=".DailyPlan"></activity>
     </application>
 
 </manifest>

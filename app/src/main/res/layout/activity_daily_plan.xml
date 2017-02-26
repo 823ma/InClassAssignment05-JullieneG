@@ -9,26 +9,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="julliene.inclassassignment05_jullieneg.Day1">
+    tools:context="julliene.inclassassignment05_jullieneg.DailyPlan">
 
     <ImageView
-        android:id="@+id/louvreMuseum"
+        android:id="@+id/locationPicture"
         android:layout_width="170dp"
         android:layout_height="190dp"
         android:maxHeight="170dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/louvremuseum" />
+        android:src="@drawable/eiffeltower" />
 
     <TextView
-        android:id="@+id/dayThreeLocation"
+        android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
-        android:layout_toEndOf="@+id/louvreMuseum"
-        android:layout_toRightOf="@+id/louvreMuseum"
-        android:text="Location: Louvre Museum"
+        android:layout_toEndOf="@+id/locationPicture"
+        android:layout_toRightOf="@+id/locationPicture"
+        android:text="Location: "
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -36,9 +36,9 @@
         android:id="@+id/toBring"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/dayThreeLocation"
-        android:layout_alignStart="@+id/dayThreeLocation"
-        android:layout_below="@+id/dayThreeLocation"
+        android:layout_alignLeft="@+id/location"
+        android:layout_alignStart="@+id/location"
+        android:layout_below="@+id/location"
         android:layout_marginTop="17dp"
         android:text="@string/headerOne"
         android:textSize="20sp"
@@ -48,7 +48,7 @@
         android:id="@+id/list_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/louvreMuseum"
+        android:layout_alignBottom="@+id/locationPicture"
         android:layout_alignLeft="@+id/toBring"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -66,7 +66,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/louvreMuseum"
+        android:layout_below="@+id/locationPicture"
         android:layout_marginTop="12dp"
         android:orientation="vertical">
 
@@ -88,15 +88,31 @@
             android:gravity="top"
             android:hint="@string/hint"
             android:inputType="textMultiLine" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
         <Button
-            android:id="@+id/shareButton"
+            android:text="See Plan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:onClick="shareNow"
-            android:text="@string/button" />
+            android:id="@+id/button2"
+            android:layout_alignParentRight="true"
+            android:onClick="openItinerary"
+            />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:onClick="saveNow"
+            android:text="@string/save"
+            />
+
+        </RelativeLayout>
 
     </LinearLayout>
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Trip Itinerary</string>
+    <string name="app_name">Trip Organizer</string>
     <string name="day1">Day 1</string>
     <string name="day2">Day 2</string>
     <string name="day3">Day 3</string>
@@ -8,4 +8,5 @@
     <string name="headerTwo">Things to Do: </string>
     <string name="hint">Type here</string>
     <string name="button">Share with a friend!</string>
+    <string name="save">Save Plan</string>
 </resources>

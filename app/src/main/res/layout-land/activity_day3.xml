@@ -2,9 +2,9 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:fillViewport="true"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
     <LinearLayout
 
@@ -17,7 +17,7 @@
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:paddingTop="8dp"
-        tools:context="julliene.inclassassignment05_jullieneg.Day1">
+        tools:context="julliene.inclassassignment05_jullieneg.DailyPlan">
 
         <ImageView
             android:id="@+id/louvreMuseum"

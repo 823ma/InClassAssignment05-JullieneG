@@ -7,31 +7,44 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    String location;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 
-    public void openDayOne(View view) {
-        Intent i = new Intent(this, Day1.class);
-        startActivity(i);
+    public void openDay(View view) {
+        Intent intent = new Intent(this, DailyPlan.class);
+
+       switch (view.getId()){
+
+           case R.id.day1:
+
+                   location = "Eiffel Tower";
+               break;
+
+           case R.id.day2:
+
+                   location = "Notre Dame";
+               break;
+
+           case R.id.day3:
+
+                   location = "Louvre Museum";
+               break;
+
+           case R.id.day4:
+
+                   location = "Luxembourg Gardens";
+               break;
+       }
+        intent.putExtra("Location", location);
+        startActivity(intent);
     }
 
-    public void openDayTwo(View view) {
-        Intent i = new Intent(this, Day2.class);
-        startActivity(i);
-    }
 
-    public void openDayThree(View view) {
-        Intent i = new Intent(this, Day3.class);
-        startActivity(i);
-    }
-
-    public void openDayFour(View view) {
-        Intent i = new Intent(this, Day4.class);
-        startActivity(i);
-    }
 
 
 }

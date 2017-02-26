@@ -8,7 +8,7 @@
 
     <LinearLayout
 
-        android:id="@+id/activity_day4"
+        android:id="@+id/activity_day1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#C5CAE9"
@@ -20,13 +20,13 @@
         tools:context="julliene.inclassassignment05_jullieneg.DailyPlan">
 
         <ImageView
-            android:id="@+id/luxembourgGardens"
+            android:id="@+id/imageView"
             android:layout_width="170dp"
             android:layout_height="190dp"
             android:layout_gravity="center"
             android:maxHeight="170dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/luxembourggardens" />
+            android:src="@drawable/eiffeltower" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,11 +35,11 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/dayTwoLocation"
+                android:id="@+id/dayOneLocation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Location: Luxembourg Gardens"
+                android:text="Location: Eiffel Tower"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -97,3 +97,4 @@
 
     </LinearLayout>
 </ScrollView>
+

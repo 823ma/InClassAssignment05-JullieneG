@@ -13,24 +13,24 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
+        <Button
             android:id="@+id/day1"
             style="@style/textStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:onClick="openDayOne"
+            android:onClick="openDay"
             android:text="@string/day1" />
 
-        <TextView
+        <Button
             android:id="@+id/day2"
             style="@style/textStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:onClick="openDayTwo"
+            android:onClick="openDay"
             android:text="@string/day2" />
 
     </LinearLayout>
@@ -41,24 +41,24 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
+        <Button
             android:id="@+id/day3"
             style="@style/textStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:onClick="openDayThree"
+            android:onClick="openDay"
             android:text="@string/day3" />
 
-        <TextView
+        <Button
             android:id="@+id/day4"
             style="@style/textStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:onClick="openDayFour"
+            android:onClick="openDay"
             android:text="@string/day4" />
     </LinearLayout>
 
