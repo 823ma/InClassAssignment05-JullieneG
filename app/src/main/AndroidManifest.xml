@@ -19,8 +19,7 @@
             android:name=".DailyPlan"
             android:parentActivityName=".MainActivity" />
 
-        <activity android:name=".TripSummary"
-            android:parentActivityName=".DailyPlan">
+        <activity android:name=".TripSummary">
 
         </activity>
     </application>
