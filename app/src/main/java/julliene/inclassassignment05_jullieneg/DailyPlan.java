@@ -6,8 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DailyPlan extends AppCompatActivity {
+    public String tripMessage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,10 +49,34 @@ public class DailyPlan extends AppCompatActivity {
 
     }
 
+    public void saveNow(View view){
+
+        TextView locationText = (TextView) findViewById(R.id.location);
+        String name = locationText.getText().toString();
+
+        TextView itemsList = (TextView) findViewById(R.id.list_item);
+        String items = itemsList.getText().toString();
+
+        TextView places = (TextView) findViewById(R.id.places_to_go);
+        String toDo = places.getText().toString();
+
+        TripPlan tripPlan = new TripPlan(items,toDo);
+
+        tripMessage = name + "\n" +tripPlan.toString();
+
+        Toast t=Toast.makeText(this,"Plan Saved!",Toast.LENGTH_SHORT);
+        t.show();
+
+
+
+    }
+
     public void openItinerary(View view) {
         Intent i = new Intent(this, TripSummary.class);
+        i.putExtra("Trip Message", tripMessage);
         startActivity(i);
     }
+
 
 
 
