@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     String location;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,8 +44,5 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("Location", location);
         startActivity(intent);
     }
-
-
-
 
 }

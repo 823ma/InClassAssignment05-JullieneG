@@ -2,8 +2,6 @@ package julliene.inclassassignment05_jullieneg;
 
 import java.io.Serializable;
 
-
-
 public class TripPlan implements Serializable {
     private String items;
     private String toDo;
@@ -11,6 +9,7 @@ public class TripPlan implements Serializable {
     public TripPlan(String items, String thingsToDo) {
         this.items = items;
         this.toDo = thingsToDo;
+
     }
 
     @Override

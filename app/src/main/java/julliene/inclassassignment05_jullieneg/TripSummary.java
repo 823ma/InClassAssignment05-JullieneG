@@ -18,13 +18,7 @@ public class TripSummary extends AppCompatActivity {
         String tripMessage = intent.getStringExtra("Trip Message");
         TextView display = (TextView)findViewById(R.id.fullItinerary);
         display.setText(tripMessage);
-
-
-
-
     }
-
-
 
     public void shareNow(View view) {
         TextView display = (TextView)findViewById(R.id.fullItinerary);
